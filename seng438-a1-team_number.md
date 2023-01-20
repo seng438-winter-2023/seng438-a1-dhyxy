@@ -33,13 +33,32 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+For this lab, we conducted exploratory and manual testing on the ATM system java program provided for the lab. Originally, we didn't have much formal knowledge on exploratory and manual testing- other than typical manual testing conducted after developing some software.
 
 # High-level description of the exploratory testing plan
 
-Text…
+We will be doing breadth-focused testing for the specifications of the system, meaning that we will explore most to all functions a little bit in order to achieve maximum coverage.
 
+## Plan
+1. Validate that all required UI elements are presented on GUI
+    - stripe reader
+    - customer console
+    - envelope deposit
+    - cash dispenser
+    - printer
+    - on/off switch
+2. Customer can log in and out of the system.
+3. Customer can make a transaction.
+    1. Withdraw
+    2. Deposit
+    3. Transfer of money
+    4. Balance Inquiry
+4. Customer can make multiple transactions (listed in 3).
+5. Customer can successfully abort transaction in progress.
+6. Card is permanently retained after 3 incorrect pin tries.
+7. System displays problem explanation for failed transaction.
+8. ATM provides receipts for each successful transaction.
+9. ATM will verify total cash on hand when turned on, and can only be turned off when not servicing customer.
 # Comparison of exploratory and manual functional testing
 
 Text…
