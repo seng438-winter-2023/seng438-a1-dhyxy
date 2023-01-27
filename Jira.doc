@@ -1,0 +1,4141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://seng438-farfour.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-32]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-32">Incorrect amount transferred from chequing to savings on card 1</a>
+            <span class="subText">
+               Created: 27/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                                    &nbsp;Resolved: 27/Jan/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10031-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Type of testing: exploratory</p>
+
+<p>Function: Transfer</p>
+
+<p>Initial State: On, card #: 1, PIN: 42</p>
+
+<p>Steps to Reproduce Error</p>
+
+<p>Create a money transfer from the savings account to checking, enter $10.</p>
+
+<p>Expected outcome </p>
+
+<p>$10 is transferred from savings to chequing.</p>
+
+<p>Actual outcome</p>
+
+<p>$9.50 is transferred from saving to chequing.</p>
+
+<p>Displayed output</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Fri Jan 27 02:31:46 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #1
+TRANSFER FROM: CHKG TO: SVGS
+AMOUNT: $9.50
+TOTAL BAL: $109.50
+AVAILABLE: $109.50</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10006"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10006"><td bgcolor="#ffffff">
+            <p>Bug was fixed in version 1.1</p>
+
+<p>Expected outcome </p>
+
+<p>$10 is transferred from chequing to savings.</p>
+
+<p>Actual outcome</p>
+
+<p>$10  is transferred from chequing to savings.</p>
+
+<p>Displayed output</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Fri Jan 27 02:32:51 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #1
+TRANSFER FROM: CHKG TO: SVGS
+AMOUNT: $10.00
+TOTAL BAL: $110.00
+AVAILABLE: $110.00</pre>
+</div></div>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-31]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-31">Card 2: Incorrect amount withdrawn from money market</a>
+            <span class="subText">
+               Created: 27/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                                    &nbsp;Resolved: 27/Jan/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_assignee_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10030-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Type of testing</b>: exploratory</p>
+
+<p><b>Function:</b> Withdrawl</p>
+
+<p><b>Initial State</b>: ATM is on, card 2 is inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Select “Withdraw” (1) as the transaction type</li>
+	<li>Select “Money Market” (3) as the account</li>
+	<li>Select the amount of cash to withdraw and observe the amount being withdrawn
+	<ol>
+		<li>1) $20</li>
+		<li>2) $40</li>
+		<li>3) $60</li>
+		<li>4) $100</li>
+		<li>5) $200</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: When we select the amount of cash, say 1) for $20, $20 should be withdrawn from the account.</p>
+
+<p><b>Actual outcome</b>: The option doesn’t correctly reflect the amount being withdrawn. Selecting one button withdraws the incorrect amount and doesn’t reflect what the buttons show.</p>
+
+<ol>
+	<li>$40</li>
+	<li>$60</li>
+	<li>$100</li>
+	<li>$200</li>
+	<li>$20</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10012"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10012"><td bgcolor="#ffffff">
+            <p>Bug fixed in version 1.1 with the correct amount withdrawn corresponding to the correct buttons being pressed on.</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-30]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-30">Screen doesn&#39;t display complete sentences</a>
+            <span class="subText">
+               Created: 27/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10029-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://seng438-farfour.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20230127-022000.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Type of testing</b>: Exploratory</p>
+
+<p><b>Function:</b> All</p>
+
+<p><b>Initial State:</b> ATM on, card 1 inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Perform any transaction successfully</li>
+	<li>Observe the screen not displaying the complete sentence</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: Screen should display “Would you like to do another transaction?”</p>
+
+<p><b>Actual outcome</b>: Screen displays “<em>Wood</em> you like to do another <em>transcatio</em>”</p>
+
+<p><b>Displayed output</b>:</p>
+
+<p>On 1.0:</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10013/10013_image-20230127-022000.png" height="126" width="349" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10011"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10011"><td bgcolor="#ffffff">
+            <p>Bug still exists in version 1.1:</p>
+
+<p>Displayed output:</p>
+
+<p><span class="error">Unable to render embedded object: File (image-20230127-021839.png) not found.</span></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-29]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-29">Spelling error displayed when performing any transcation</a>
+            <span class="subText">
+               Created: 27/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                                    &nbsp;Resolved: 27/Jan/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10028-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://seng438-farfour.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20230127-021231.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Type of testing</b>: Exploratory</p>
+
+<p><b>Function</b>: All</p>
+
+<p><b>Initial State</b>: ATM on, card 1 inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Perform any transaction successfully</li>
+	<li>Observe the screen displaying a spelling error when prompting the user to perform another transcation</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: Screen should display “Would you like to do another transcation?”</p>
+
+<p><b>Actual outcome</b>: Screen displays “<em>Wood</em> you like to do another transcatio?”</p>
+
+<p><b>Displayed output:</b></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10012/10012_image-20230127-021231.png" height="99" width="350" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10005"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10005"><td bgcolor="#ffffff">
+            <p>Bug fixed in version 1.1</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-28]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-28">TC 14: Card 1 &amp; 2 - Incorrect Withdrawal Options from Checkings Account</a>
+            <span class="subText">
+               Created: 27/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                                    &nbsp;Resolved: 27/Jan/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_assignee_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10027-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Scripted                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>CARD 1:</b></p>
+
+<p><b>Function</b>: Withdrawl</p>
+
+<p><b>Initial State</b>: ATM is on, card 2 is inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Select “Withdraw” (1) as the transaction type</li>
+	<li>Select “Checkings” (2) as the account</li>
+	<li>Select the amount of cash to withdraw
+	<ol>
+		<li>1) $20</li>
+		<li>2) $40</li>
+		<li>3) $60</li>
+		<li>4) $100</li>
+		<li>5) $200</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: When we select the amount of cash, say 1) for $20, $20 should be withdrawn from the account.</p>
+
+<p><b>Actual outcome</b>: The option doesn’t correctly reflect the amount being withdrawn.</p>
+
+<ol>
+	<li>$40</li>
+	<li>$60</li>
+	<li>$100</li>
+	<li>$200</li>
+	<li>$20</li>
+</ol>
+
+
+<p><b>CARD 2:</b></p>
+
+<p><b>Function</b>: Withdrawl</p>
+
+<p><b>Initial State</b>: ATM is on, card 2 is inserted</p>
+
+<p><b>Steps to Reproduce Error:</b></p>
+
+<ol>
+	<li>Select “Withdraw” (1) as the transaction type</li>
+	<li>Select “Checkings” (2) as the account</li>
+	<li>Select the amount of cash to withdraw
+	<ol>
+		<li>1) $20</li>
+		<li>2) $40</li>
+		<li>3) $60</li>
+		<li>4) $100</li>
+		<li>5) $200</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: When we select the amount of cash, say 1) for $20, $20 should be withdrawn from the account.</p>
+
+<p><b>Actual outcome</b>: The option doesn’t correctly reflect the amount being withdrawn.</p>
+
+<ol>
+	<li>$40</li>
+	<li>$60</li>
+	<li>$100</li>
+	<li>$200</li>
+	<li>$20</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10004"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10004"><td bgcolor="#ffffff">
+            <p>Bug fixed in version 1.1</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-26]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-26">TC 29 : System performs a legitimate transfer transaction properly (1.0 and 1.1)</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="627ebb7723d61e006fc6641d"
+                id="word_reporter_627ebb7723d61e006fc6641d"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=627ebb7723d61e006fc6641d">
+                    Sukriti Sharma
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10025-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Scripted                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://seng438-farfour.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20230126-234037.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Testing type:</b> Scripted</p>
+
+<p><b>Function</b>: Transfer. System performs a legitimate transfer transaction properly.</p>
+
+<p><b>Initial State</b>: ATM is on, card is inserted, pin is correct. System is displaying a request for the customer to type a dollar amount</p>
+
+<p><b>Steps to reproduce</b>: </p>
+
+<p>Turn on ATM, insert card , enter pin, select transfer option, select account to transfer from(checking for example) and account to transfer to(savings for example). Enter $30 to transfer.</p>
+
+<p><b>Expected outcome</b>:</p>
+
+<p>System prints a correct receipt showing amount and correct updated balance of $30; System records transaction correctly in the log (showing both message to the bank and approval back)</p>
+
+<p><b>Actual outcome:</b></p>
+
+<p>Receipts shows that $29.50 has been transfered. Accounts have been switched, transfer was from savings to checkings.</p>
+
+<p><b>Displayed output:</b></p>
+
+<p><em>Thu Jan 26 16:33:20 MST 2023</em><br/>
+<em>First National Bank of Podunk</em><br/>
+<em>ATM #42 Gordon College</em><br/>
+<em>CARD 2 TRANS #11</em><br/>
+<em>TRANSFER FROM: SVGS TO: CHKG</em><br/>
+<em>AMOUNT: $29.50</em><br/>
+<em>TOTAL BAL: $1029.50</em><br/>
+<em>AVAILABLE: $1029.50</em></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10010/10010_image-20230126-234037.png" height="243" width="598" style="border: 0px solid black" /></span></p>
+
+<p>_________________________________________________________________________________________________________________________________________________</p>
+
+<p><b>Testing type:</b> Regression</p>
+
+<p><b>Expected outcome</b>:</p>
+
+<p>System prints a correct receipt showing amount and correct updated balance of $30; System records transaction correctly in the log (showing both message to the bank and approval back)</p>
+
+<p><b>Actual outcome:</b></p>
+
+<p>Receipts shows that $30.00 has been transfered. Accounts are still switched, transfer was from savings to checking. Defect still exists in version 1.1.</p>
+
+<p><b>Displayed output:</b></p>
+
+<p><em>Thu Jan 26 17:38:56 MST 2023</em><br/>
+<em>First National Bank of Podunk</em><br/>
+<em>ATM #42 Gordon College</em><br/>
+<em>CARD 2 TRANS #1</em><br/>
+<em>TRANSFER FROM: SVGS TO: CHKG</em><br/>
+<em>AMOUNT: $30.00</em><br/>
+<em>TOTAL BAL: $1030.00</em><br/>
+<em>AVAILABLE: $1030.00</em></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-19]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-19">TC 22 : Incorrect Deposit Amount(1.0 and 1.1)</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="627ebb7723d61e006fc6641d"
+                id="word_reporter_627ebb7723d61e006fc6641d"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=627ebb7723d61e006fc6641d">
+                    Sukriti Sharma
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10018-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Bug, Scripted                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://seng438-farfour.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20230126-060449.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Testing type:</b> Scripted(ver 1.0)</p>
+
+<p><b>Function</b>: Deposit. System performs a legitimate deposit transaction properly.</p>
+
+<p><b>Initial State</b>: ATM is on, card inserted, pin is correct. System is requesting that customer insert an envelope.</p>
+
+<p><b>Steps to reproduce</b>: </p>
+
+<p>Turn on ATM, enter number of $20 bills, insert card 1, enter pin 42, select deposit option, select account to deposit to(checking). Enter $20 to deposit.</p>
+
+<p><b>Expected outcome</b>:</p>
+
+<p>Receipt prints showing that $20 has been deposited, with the correct balance being updated. System records transaction correctly in the log (showing message to the bank, approval back, and acceptance of the envelope).</p>
+
+<p><b>Actual outcome:</b></p>
+
+<p>Receipts shows that $10 has been deposited. System records transaction correctly in the log (showing message to the bank, approval back, and acceptance of the envelope). Card number is incorrect in receipt.</p>
+
+<p><b>Displayed output:</b></p>
+
+<p><em>Wed Jan 25 22:44:17 MST 2023</em><br/>
+<em>First National Bank of Podunk</em><br/>
+<em>ATM #42 Gordon College</em><br/>
+<em>CARD 2 TRANS #1</em><br/>
+<em>DEPOSIT TO: CHKG</em><br/>
+<em>AMOUNT: $20.00</em><br/>
+<em>TOTAL BAL: $110.00</em><br/>
+<em>AVAILABLE: $100.00</em></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10002/10002_image-20230126-060449.png" height="160" width="480" style="border: 0px solid black" /></span></p>
+
+<p>________________________________________________________________________________________________________________________________________________</p>
+
+<p><b>Testing type</b>: Regression(ver 1.1)</p>
+
+<p><b>Expected outcome:</b> Receipt prints showing that $20 has been deposited, with the correct balance being updated. System records transaction correctly in the log (showing message to the bank, approval back, and acceptance of the envelope).</p>
+
+<p><b>Actual outcome</b>: Receipts shows that $19.90 has been deposited. System records transaction correctly in the log (showing message to the bank, approval back, and acceptance of the envelope).  Defect still exists in version 1.1.</p>
+
+<p><b>Displayed output:</b></p>
+
+<p><em>Thu Jan 26 18:00:57 MST 2023</em><br/>
+<em>First National Bank of Podunk</em><br/>
+<em>ATM #42 Gordon College</em><br/>
+<em>CARD 2 TRANS #1</em><br/>
+<em>DEPOSIT TO: CHKG</em><br/>
+<em>AMOUNT: $20.00</em><br/>
+<em>TOTAL BAL: $119.90</em><br/>
+<em>AVAILABLE: $100.00</em></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-17]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-17">TC14: Card 1: Incorrect withdrawal options from savings account</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cabd7f68827e6b60cb3"
+                id="word_reporter_63c84cabd7f68827e6b60cb3"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cabd7f68827e6b60cb3">
+                    Fanny Lo
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory, Scripted                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>This is part of exploratory testing (and was further confirmed in scripted testing on January 26, 2023)</p>
+
+<p><b>Function</b>: Withdrawl</p>
+
+<p><b>Initial State:</b> ATM is on, card 1 is inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Select “Withdrawl” (1) as the transaction type</li>
+	<li>Select “Savings” (2) as the account</li>
+	<li>Select the amount of cash to withdraw
+	<ol>
+		<li>1) $20</li>
+		<li>2) $40</li>
+		<li>3) $60</li>
+		<li>4) $100</li>
+		<li>5) $200</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: When we select the amount of cash, say 1) for $20, $20 should be withdrawn from the account.</p>
+
+<p><b>Actual outcome</b>: The option doesn’t correctly reflect the amount being withdrawn. </p>
+
+<ol>
+	<li>$40</li>
+	<li>$60</li>
+	<li>$100</li>
+	<li>$200</li>
+	<li>$20</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-15]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-15">TC40: Re-entry of PIN is not accepted on 3rd try</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_reporter_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10014-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Scripted                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Type of testing</b>: scripted testing</p>
+
+<p><b>Function</b>: Invalid PIN extension</p>
+
+<p><b>Initial State</b>: System on, card #1, incorrect PIN has been entered twice</p>
+
+<p><b>Steps to Reproduce Error:</b></p>
+
+<p>turn on system, enter card #1, enter incorrect PIN twice, and then enter correct PIN: 42</p>
+
+<p><b>Expected outcome:</b></p>
+
+<p>System proceeds to main menu </p>
+
+<p><b>Actual outcome:</b></p>
+
+<p>System asks for re-entry of PIN</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10003"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_commented_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10003"><td bgcolor="#ffffff">
+            <p>Defect still exists in version 1.1</p>
+
+<p>Same defect details as version 1.0</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-14]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-14">TC39: System asks to re-enter PIN after correct re-entry of PIN</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_reporter_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10013-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Scripted                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Type of testing: scripted </p>
+
+<p>Function: Invalid PIN Extension</p>
+
+<p>Initial State: System is on, Card #: 1, Request to re-enter PIN is displayed</p>
+
+<p>Steps to Reproduce Error</p>
+
+<p>turn on the system and enter card #: 1, enter an incorrect PIN, and then enter the correct PIN: 42. </p>
+
+<p>Expected outcome </p>
+
+<p>System proceeds to main menu</p>
+
+<p>Actual outcome</p>
+
+<p>System asks for PIN again</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10002"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_commented_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10002"><td bgcolor="#ffffff">
+            <p>Defect still exists in version 1.1</p>
+
+<p>Same bug details as version 1.0</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-13]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-13">Card 2: Incorrect amount deposited to money market </a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_assignee_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10012-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>ON VERSION 1.0</b></p>
+
+<p>Type of testing: exploratory testing</p>
+
+<p>Function: Transfer</p>
+
+<p>Initial State: System on, card #: 2, PIN: 1234</p>
+
+<p>Steps to Reproduce Error</p>
+
+<p>Select deposit, select money market, add the amount of $20, and press enter</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 2</p>
+
+<p>Actual outcome</p>
+
+<p>$10 is deposited to card 2</p>
+
+<p>Displayed output</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:42:16 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 3 TRANS #2
+DEPOSIT TO: MMKT
+AMOUNT: $20.00
+TOTAL BAL: $5010.00
+AVAILABLE: $5000.00</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10010"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10010"><td bgcolor="#ffffff">
+            <p>Bug still exists in version 1.1</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 2</p>
+
+<p>Actual outcome</p>
+
+<p>$19.90 is deposited to card 2</p>
+
+<p>Displayed output</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Thu Jan 26 20:56:54 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 3 TRANS #2
+DEPOSIT TO: MMKT
+AMOUNT: $20.00
+TOTAL BAL: $5019.90
+AVAILABLE: $5000.00</pre>
+</div></div>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-12]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-12">Card 2: Incorrect amount deposited into checking account</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10011-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Type of testing: exploratory</p>
+
+<p>Function: Deposit</p>
+
+<p>Initial State: System on, card #: 2, PIN: 1234</p>
+
+<p>Steps to Reproduce Error</p>
+
+<p>Select deposit, add the amount of $20, and press enter</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 2</p>
+
+<p>Actual outcome</p>
+
+<p>$10 is deposited to card 2</p>
+
+<p> </p>
+
+<p><b>ON VERSION 1.0</b></p>
+
+<p>Displayed output:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:35:32 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 3 TRANS #1
+DEPOSIT TO: CHKG
+AMOUNT: $20.00
+TOTAL BAL: $110.00
+AVAILABLE: $100.00</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10009"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10009"><td bgcolor="#ffffff">
+            <p>Bug still exists in version 1.1:</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 2</p>
+
+<p>Actual outcome</p>
+
+<p>$19.90 is deposited to card 2</p>
+
+<p>Displayed output:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Thu Jan 26 20:50:57 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 3 TRANS #1
+DEPOSIT TO: CHKG
+AMOUNT: $20.00
+TOTAL BAL: $119.90
+AVAILABLE: $100.00</pre>
+</div></div>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-11]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-11">No option for balance inquiry for savings account</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cabd7f68827e6b60cb3"
+                id="word_reporter_63c84cabd7f68827e6b60cb3"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cabd7f68827e6b60cb3">
+                    Fanny Lo
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Type of testing</b>: Exploratory</p>
+
+<p><b>Function</b>: Balance Inquiry</p>
+
+<p><b>Initial State</b>: ATM on, card 2 inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Select “Balance Inquiry” (4) as the transaction type</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: An option to perform balance inquiry for saving account</p>
+
+<p><b>Actual outcome</b>: The only options are 1) checking 2) money market. When selecting money market option, displayed “Invalid account type”.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-10]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-10">Card 1: Incorrect amount deposited into checking account</a>
+            <span class="subText">
+               Created: 26/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>ON VERSION 1.0</b></p>
+
+<p><b>Type of testing</b>: exploratory</p>
+
+<p><b>Function</b>: Deposit</p>
+
+<p><b>Initial State</b>: System on, card #: 1, PIN: 42</p>
+
+<p><b>Steps to Reproduce Error:</b></p>
+
+<p>Select deposit, add the amount of $20, and press enter </p>
+
+<p><b>Expected outcome</b>:</p>
+
+<p>$20 is deposited to card 1</p>
+
+<p><b>Actual outcome:</b></p>
+
+<p>$10 is deposited to card 1 </p>
+
+
+
+<p>Displayed output: </p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:31:08 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #3
+DEPOSIT TO: CHKG
+AMOUNT: $20.00
+TOTAL BAL: $110.00
+AVAILABLE: $100.00</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10008"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10008"><td bgcolor="#ffffff">
+            <p>Bug still exists in version 1.1</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 1</p>
+
+<p>Actual outcome</p>
+
+<p>$19.90 is deposited to card 1</p>
+
+<p>Displayed output:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Thu Jan 26 18:42:17 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #2
+DEPOSIT TO: CHKG
+AMOUNT: $20.00
+TOTAL BAL: $119.90
+AVAILABLE: $100.00</pre>
+</div></div>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-4]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-4">Card 1: Incorrect amount deposited into saving account</a>
+            <span class="subText">
+               Created: 20/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_reporter_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10003-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>ON VERSION 1.0</b></p>
+
+<p>Type of testing: exploratory</p>
+
+<p>Function: Deposit</p>
+
+<p>Initial State: System on, card #: 1, PIN: 42</p>
+
+<p>Steps to Reproduce Error</p>
+
+<p>Select deposit, add the amount of $20, and press enter</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 1</p>
+
+<p>Actual outcome</p>
+
+<p>$10 is deposited to card 1</p>
+
+<p>Displayed output</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:49:14 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #1
+DEPOSIT TO: SVGS
+AMOUNT: $20.00
+TOTAL BAL: $1010.00
+AVAILABLE: $1000.00</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10007"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="63c84cab6178fcc941d90039"
+                id="word_commented_63c84cab6178fcc941d90039"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cab6178fcc941d90039">
+                    Caroline Basta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10007"><td bgcolor="#ffffff">
+            <p>Bug still exists in version 1.1:</p>
+
+<p>Expected outcome </p>
+
+<p>$20 is deposited to card 1</p>
+
+<p>Actual outcome</p>
+
+<p>$19.90 is deposited to card 1</p>
+
+<p>Displayed output</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Thu Jan 26 18:38:46 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #1
+DEPOSIT TO: SVGS
+AMOUNT: $20.00
+TOTAL BAL: $1019.90
+AVAILABLE: $1000.00</pre>
+</div></div>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-3]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-3">Incorrect Balance inquiry from Money Market</a>
+            <span class="subText">
+               Created: 20/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>,                    <a title="1.1"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cabd7f68827e6b60cb3"
+                id="word_reporter_63c84cabd7f68827e6b60cb3"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cabd7f68827e6b60cb3">
+                    Fanny Lo
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63c84cabd7f68827e6b60cb3"
+                id="word_assignee_63c84cabd7f68827e6b60cb3"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=63c84cabd7f68827e6b60cb3">
+                    Fanny Lo
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10002-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>This is part of exploratory testing</p>
+
+<p><b>Function</b>: Balance inquiry on money market</p>
+
+<p><b>Initial State</b>: ATM is on, card 1 is inserted</p>
+
+<p><b>Steps to Reproduce Error</b>:</p>
+
+<ol>
+	<li>Select “Balance Inquiry” (4) as the transaction type</li>
+	<li>Select “Money Market” (2) as the account</li>
+</ol>
+
+
+<p><b>Expected outcome</b>: Receipt showing total balance of $5000</p>
+
+<p><b>Actual outcome</b>: Receipt showing total balance of $1000, “Unknown Error” is displayed on the screen, and $500 is withdrawn from the ATM without the amount being deducted from the Money Market account.</p>
+
+<p><b>Displayed output from receipt</b></p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:28:38 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #7
+INQUIRY FROM: SVGS
+
+TOTAL BAL: $1000.00
+AVAILABLE: $1000.00</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10001"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_commented_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10001"><td bgcolor="#ffffff">
+            <p>Defect still exists in version 1.1</p>
+
+<p>Actual outcome</p>
+
+<p>“Invalid account type” message prompting if the user wants to do another transaction.</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [A1-1]&nbsp;<a href="https://seng438-farfour.atlassian.net/browse/A1-1">Incorrect amount transferred from chequing to saving on card 1</a>
+            <span class="subText">
+               Created: 20/Jan/23                   &nbsp;Updated: 27/Jan/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-farfour.atlassian.net/secure/BrowseProject.jspa?id=10000">a1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="1.0"
+                href="https://seng438-farfour.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_reporter_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10000-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Exploratory                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Type of testing</b>: exploratory</p>
+
+<p><b>Function</b>: Transfer</p>
+
+<p><b>Initial State</b>: On, card #: 1, PIN: 42</p>
+
+<p><b>Steps to Reproduce Error:</b></p>
+
+<p>Create a money transfer from the chequing account to saving, enter $10.</p>
+
+<p><b>Expected outcome :</b></p>
+
+<p>$10 is transferred from chequing to saving.</p>
+
+<p><b>Actual outcome:</b></p>
+
+<p>$9.50 is transferred from chequing to saving.</p>
+
+<p><b>Displayed output:</b></p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:04:36 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #1
+TRANSFER FROM: SVGS TO: CHKG
+AMOUNT: $9.50
+TOTAL BAL: $1009.50
+AVAILABLE: $1009.50</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10000"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="5e9ccc7a9cc9330c1107e415"
+                id="word_commented_5e9ccc7a9cc9330c1107e415"
+                href="https://seng438-farfour.atlassian.net/secure/ViewProfile.jspa?accountId=5e9ccc7a9cc9330c1107e415">
+                    Dhyey Lalseta
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/Jan/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10000"><td bgcolor="#ffffff">
+            <p>Defect still exists in version 1.1<br/>
+Actual outcome:<br/>
+$10 is transferred from savings to chequing</p>
+
+<p>Displayed output:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Wed Jan 25 17:29:47 MST 2023
+First National Bank of Podunk
+ATM #42 Gordon College
+CARD 2 TRANS #2
+TRANSFER FROM: SVGS TO: CHKG
+AMOUNT: $10.00
+TOTAL BAL: $1000.00
+AVAILABLE: $1000.00</pre>
+</div></div>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Fri Jan 27 23:42:33 UTC 2023 by Dhyey Lalseta using Jira 1001.0.0-SNAPSHOT#100214-sha1:c40e72a2441974aaf4a204cdeaf69cef25d44171.
+
+</body>
+</html>
